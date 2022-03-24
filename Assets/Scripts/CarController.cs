@@ -34,12 +34,31 @@ public class CarController : MonoBehaviour
     private float m_currentAcceleration = 0f;
     private float m_currentBrakeTorque = 0f;
 
+    // finds the corresponding visual wheel
+    // correctly applies the transform
+    public void ApplyLocalPositionToVisuals(WheelCollider collider)
+    {
+        if (collider.transform.childCount == 0) {
+            return;
+        }
+     
+        Transform visualWheel = collider.transform.GetChild(0);
+     
+        Vector3 position;
+        Quaternion rotation;
+        collider.GetWorldPose(out position, out rotation);
+     
+        visualWheel.transform.position = position;
+        visualWheel.transform.rotation = rotation;
+    }
+    
     public void FixedUpdate()
     {
+        
         float motor = maxMotorTorque * m_currentAcceleration;
         float steering = maxSteeringAngle * m_currentSteeringAngle;
         float brake = maxBrakeTorque * m_currentBrakeTorque;
-        // Debug.Log(motor + "," + steering + "," + brake);
+        Debug.Log(motor + "," + steering + "," + brake);
         foreach (AxleInfo axleInfo in axleInfos) {
             if (axleInfo.steering) {
                 axleInfo.leftWheel.steerAngle = steering;
@@ -55,6 +74,9 @@ public class CarController : MonoBehaviour
                 axleInfo.leftWheel.brakeTorque = brake;
                 axleInfo.rightWheel.brakeTorque = brake;
             }
+            
+            ApplyLocalPositionToVisuals(axleInfo.leftWheel);
+            ApplyLocalPositionToVisuals(axleInfo.rightWheel);
         }
     }
 }

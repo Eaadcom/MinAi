@@ -29,7 +29,7 @@ public class CarAI : Agent
         _actionsOut[1] = Input.GetAxis("Vertical"); //fowards-backwards
         _actionsOut[2] = Input.GetAxis("Jump"); //brakes
         
-        print(Input.GetAxis("Jump"));
+        
     }
     
 }

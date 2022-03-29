@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
@@ -29,17 +30,8 @@ public class BasicCarController : MonoBehaviour {
         Quaternion rotation;
         collider.GetWorldPose(out position, out rotation);
 
-        //position = position.Set(position.x, position.y, position.z+90);
-
-        float rotaW = rotation.w;
-        float rotaX = rotation.x;
-        float rotaY = rotation.y;
-        float rotaZ = rotation.z;
-
-        Quaternion newRotation = new Quaternion(rotaX, rotaY, rotaZ, 180f);
-        
-        visualWheel.transform.rotation = newRotation;
-        visualWheel.transform.position = position;
+        visualWheel.transform.rotation = rotation;
+        // visualWheel.transform.position = newPosition;
     }
      
     public void FixedUpdate()

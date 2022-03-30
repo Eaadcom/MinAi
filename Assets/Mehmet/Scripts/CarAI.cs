@@ -8,13 +8,14 @@ namespace SceneMehmet
 {
     public class CarAI : Agent
     {
+        [SerializeField] public Transform carTransform;
         public override void OnEpisodeBegin()
         {
-            transform.localPosition = Vector3.zero;
+            carTransform.localPosition = Vector3.zero;
         }
         public override void CollectObservations(VectorSensor sensor)
         {
-            sensor.AddObservation(transform.localPosition);
+            sensor.AddObservation(carTransform.localPosition);
         }
         public override void OnActionReceived(ActionBuffers actions)
         {
@@ -23,13 +24,13 @@ namespace SceneMehmet
             float moveSpeed = 3f;
             float rotateSpeed = 100f;
             if(movement != 0){
-                transform.Rotate(Vector3.up * rotation * (rotateSpeed *Time.deltaTime));
+                carTransform.Rotate(Vector3.up * rotation * (rotateSpeed *Time.deltaTime));
             }
             if(movement < 0 ){
-                transform.localPosition += -transform.right * moveSpeed * Time.deltaTime;
+                carTransform.localPosition += -carTransform.forward * moveSpeed * Time.deltaTime;
             }
             else if(movement > 0){
-                transform.localPosition += transform.right * moveSpeed * Time.deltaTime;
+                carTransform.localPosition += carTransform.forward * moveSpeed * Time.deltaTime;
             }
         }
         public override void Heuristic(in ActionBuffers actionsOut)

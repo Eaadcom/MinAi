@@ -33,12 +33,12 @@ public class BasicCarController : MonoBehaviour {
         visualWheel.transform.rotation = rotation;
         // visualWheel.transform.position = newPosition;
     }
-     
-    public void FixedUpdate()
+
+    public void Input(float movefoward, float steeringInput)
     {
-        float motor = maxMotorTorque * Input.GetAxis("Vertical");
-        float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
-     
+        float motor = maxMotorTorque * movefoward;
+        float steering = maxSteeringAngle * steeringInput;
+
         foreach (BasicAxleInfo axleInfo in axleInfos) {
             if (axleInfo.steering) {
                 axleInfo.leftWheel.steerAngle = steering;
@@ -51,5 +51,11 @@ public class BasicCarController : MonoBehaviour {
             ApplyLocalPositionToVisuals(axleInfo.leftWheel);
             ApplyLocalPositionToVisuals(axleInfo.rightWheel);
         }
+    }
+
+    public void resetPosition()
+    {
+        transform.position = Vector3.zero;
+        transform.rotation = Quaternion.identity;
     }
 }

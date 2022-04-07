@@ -7,7 +7,7 @@ python -m venv venv
 source venv/bin/activate (for mac)
 
 **learn proces runnen**
-mlagents-learn
+mlagents-learn (--run-id=hierjouwid of --force)
 
 **venv uitzetten**
 deactivate

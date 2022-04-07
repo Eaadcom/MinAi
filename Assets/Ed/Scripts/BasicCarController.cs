@@ -15,7 +15,13 @@ public class BasicCarController : MonoBehaviour {
     public List<BasicAxleInfo> axleInfos; 
     public float maxMotorTorque;
     public float maxSteeringAngle;
-     
+    private Rigidbody RB;
+
+    private void Awake()
+    {
+        RB = GetComponent<Rigidbody>();
+    }
+
     // finds the corresponding visual wheel
     // correctly applies the transform
     public void ApplyLocalPositionToVisuals(WheelCollider collider)
@@ -55,7 +61,10 @@ public class BasicCarController : MonoBehaviour {
 
     public void resetPosition()
     {
-        transform.position = Vector3.zero;
+        transform.localPosition = Vector3.zero;
         transform.rotation = Quaternion.identity;
+        
+        RB.velocity = Vector3.zero;
+        RB.angularVelocity = Vector3.zero;
     }
 }

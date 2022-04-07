@@ -15,8 +15,8 @@ public class CarAi : Agent
     [SerializeField] private Material loseColor;
 
     private BasicCarController carcontroller;
-
     private RandomizeGoal randomizeGoal;
+    private int steps;
     void Awake()
     {
         carcontroller = gameObject.GetComponent<BasicCarController>();
@@ -27,6 +27,7 @@ public class CarAi : Agent
     {
         carcontroller.resetPosition();
         randomizeGoal.NewGoalPosition();
+        steps = 0;
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -53,6 +54,12 @@ public class CarAi : Agent
             SetReward(+0.001f);
         } else {
             SetReward(-0.001f);
+        }
+        
+        steps++;
+        if (MaxStep == steps)
+        {
+            floorColor.material = loseColor;
         }
     }
     

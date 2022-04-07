@@ -1,0 +1,65 @@
+{
+    "CarFindGoal": {
+        "checkpoints": [
+            {
+                "steps": 3499942,
+                "file_path": "results/carMinusOneOnMaxSteps/CarFindGoal/CarFindGoal-3499942.onnx",
+                "reward": 0.9885000828653574,
+                "creation_time": 1649351730.66817,
+                "auxillary_file_paths": [
+                    "results/carMinusOneOnMaxSteps/CarFindGoal/CarFindGoal-3499942.pt"
+                ]
+            },
+            {
+                "steps": 3999955,
+                "file_path": "results/carMinusOneOnMaxSteps/CarFindGoal/CarFindGoal-3999955.onnx",
+                "reward": 1.3955713659524918,
+                "creation_time": 1649352096.413909,
+                "auxillary_file_paths": [
+                    "results/carMinusOneOnMaxSteps/CarFindGoal/CarFindGoal-3999955.pt"
+                ]
+            },
+            {
+                "steps": 4499989,
+                "file_path": "results/carMinusOneOnMaxSteps/CarFindGoal/CarFindGoal-4499989.onnx",
+                "reward": null,
+                "creation_time": 1649352462.684007,
+                "auxillary_file_paths": [
+                    "results/carMinusOneOnMaxSteps/CarFindGoal/CarFindGoal-4499989.pt"
+                ]
+            },
+            {
+                "steps": 4999993,
+                "file_path": "results/carMinusOneOnMaxSteps/CarFindGoal/CarFindGoal-4999993.onnx",
+                "reward": 9.824799985438585,
+                "creation_time": 1649352837.527821,
+                "auxillary_file_paths": [
+                    "results/carMinusOneOnMaxSteps/CarFindGoal/CarFindGoal-4999993.pt"
+                ]
+            },
+            {
+                "steps": 5165968,
+                "file_path": "results/carMinusOneOnMaxSteps/CarFindGoal/CarFindGoal-5165968.onnx",
+                "reward": 9.883333229080394,
+                "creation_time": 1649353041.875215,
+                "auxillary_file_paths": [
+                    "results/carMinusOneOnMaxSteps/CarFindGoal/CarFindGoal-5165968.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5165968,
+            "file_path": "results/carMinusOneOnMaxSteps/CarFindGoal.onnx",
+            "reward": 9.883333229080394,
+            "creation_time": 1649353041.875215,
+            "auxillary_file_paths": [
+                "results/carMinusOneOnMaxSteps/CarFindGoal/CarFindGoal-5165968.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.8.1"
+    }
+}

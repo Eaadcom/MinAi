@@ -1,0 +1,65 @@
+{
+    "CarFindGoal": {
+        "checkpoints": [
+            {
+                "steps": 2499997,
+                "file_path": "results/car3/CarFindGoal/CarFindGoal-2499997.onnx",
+                "reward": 2.4101874891202897,
+                "creation_time": 1649330510.590739,
+                "auxillary_file_paths": [
+                    "results/car3/CarFindGoal/CarFindGoal-2499997.pt"
+                ]
+            },
+            {
+                "steps": 2999989,
+                "file_path": "results/car3/CarFindGoal/CarFindGoal-2999989.onnx",
+                "reward": 0.8217499752839407,
+                "creation_time": 1649330962.906658,
+                "auxillary_file_paths": [
+                    "results/car3/CarFindGoal/CarFindGoal-2999989.pt"
+                ]
+            },
+            {
+                "steps": 3499972,
+                "file_path": "results/car3/CarFindGoal/CarFindGoal-3499972.onnx",
+                "reward": 6.276333241413037,
+                "creation_time": 1649331413.805177,
+                "auxillary_file_paths": [
+                    "results/car3/CarFindGoal/CarFindGoal-3499972.pt"
+                ]
+            },
+            {
+                "steps": 3999936,
+                "file_path": "results/car3/CarFindGoal/CarFindGoal-3999936.onnx",
+                "reward": -1.0000000484287739,
+                "creation_time": 1649331858.805426,
+                "auxillary_file_paths": [
+                    "results/car3/CarFindGoal/CarFindGoal-3999936.pt"
+                ]
+            },
+            {
+                "steps": 4207883,
+                "file_path": "results/car3/CarFindGoal/CarFindGoal-4207883.onnx",
+                "reward": 0.5601428252245698,
+                "creation_time": 1649332120.048226,
+                "auxillary_file_paths": [
+                    "results/car3/CarFindGoal/CarFindGoal-4207883.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4207883,
+            "file_path": "results/car3/CarFindGoal.onnx",
+            "reward": 0.5601428252245698,
+            "creation_time": 1649332120.048226,
+            "auxillary_file_paths": [
+                "results/car3/CarFindGoal/CarFindGoal-4207883.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.8.1"
+    }
+}

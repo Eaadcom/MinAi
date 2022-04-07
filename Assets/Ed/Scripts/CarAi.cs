@@ -52,7 +52,8 @@ public class CarAi : Agent
         if (currentDistance < previousDistance)
         {
             SetReward(+0.001f);
-        } else {
+        } 
+        else {
             SetReward(-0.001f);
         }
         
@@ -60,6 +61,7 @@ public class CarAi : Agent
         if (MaxStep == steps)
         {
             floorColor.material = loseColor;
+            SetReward(-1f);
         }
     }
     

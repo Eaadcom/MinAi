@@ -1165,6 +1165,10 @@ PrefabInstance:
       propertyPath: m_BehaviorType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2068624370155850344, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3189167902236241273, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_Name
       value: SmallArena

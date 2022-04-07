@@ -11,14 +11,18 @@ public class CarAi : Agent
     private Transform targetTransform;
 
     private BasicCarController carcontroller;
+
+    private RandomizeGoal randomizeGoal;
     void Awake()
     {
         carcontroller = gameObject.GetComponent<BasicCarController>();
+        randomizeGoal = gameObject.GetComponent<RandomizeGoal>();
     }
     
     public override void OnEpisodeBegin()
     {
         carcontroller.resetPosition();
+        randomizeGoal.NewGoalPosition();
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -55,10 +59,10 @@ public class CarAi : Agent
             EndEpisode();
             print("HIT");
         }
-        // if (other.TryGetComponent<Wall>(out Wall wall))
-        // {
-        //     SetReward(-1f);
-        //     EndEpisode();
-        // }
+        if (other.TryGetComponent<Wallarea>(out Wallarea wallarea))
+        {
+            SetReward(-1f);
+            EndEpisode();
+        }
     }
 }

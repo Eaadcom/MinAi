@@ -61,7 +61,7 @@ public class BasicCarController : MonoBehaviour {
 
     public void resetPosition()
     {
-        transform.position = Vector3.zero;
+        transform.localPosition = Vector3.zero;
         transform.rotation = Quaternion.identity;
         
         RB.velocity = Vector3.zero;

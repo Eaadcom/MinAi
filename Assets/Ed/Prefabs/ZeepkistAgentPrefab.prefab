@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 3509009285057043094}
   - component: {fileID: 7637986123813597267}
   - component: {fileID: 2300444010741179857}
+  - component: {fileID: 3447076252350251601}
   m_Layer: 0
   m_Name: car_root
   m_TagString: Untagged
@@ -312,6 +313,9 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   targetTransform: {fileID: 0}
+  floorColor: {fileID: 0}
+  winColor: {fileID: 0}
+  loseColor: {fileID: 0}
 --- !u!114 &2300444010741179857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,6 +330,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 5
   TakeActionsBetweenDecisions: 1
+--- !u!114 &3447076252350251601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5109641120701622957}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2902496c0120472b90269f94a0aec7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Record: 0
+  NumStepsToRecord: 0
+  DemonstrationName: carImitation_1
+  DemonstrationDirectory: Demos
 --- !u!1 &5348585465041278815
 GameObject:
   m_ObjectHideFlags: 0

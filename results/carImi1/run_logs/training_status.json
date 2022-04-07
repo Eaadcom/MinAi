@@ -1,0 +1,29 @@
+{
+    "CarFindGoal": {
+        "checkpoints": [
+            {
+                "steps": 2303,
+                "file_path": "results\\carImi1\\CarFindGoal\\CarFindGoal-2303.onnx",
+                "reward": null,
+                "creation_time": 1649331462.1369562,
+                "auxillary_file_paths": [
+                    "results\\carImi1\\CarFindGoal\\CarFindGoal-2303.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2303,
+            "file_path": "results\\carImi1\\CarFindGoal.onnx",
+            "reward": null,
+            "creation_time": 1649331462.1369562,
+            "auxillary_file_paths": [
+                "results\\carImi1\\CarFindGoal\\CarFindGoal-2303.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

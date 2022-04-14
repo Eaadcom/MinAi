@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -197,7 +197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3189167902236241273, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8299650273285470448, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_RootOrder
@@ -258,7 +258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3189167902236241273, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8299650273285470448, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_RootOrder
@@ -534,7 +534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3189167902236241273, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8299650273285470448, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_RootOrder
@@ -656,7 +656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3189167902236241273, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8299650273285470448, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_RootOrder
@@ -778,7 +778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3189167902236241273, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8299650273285470448, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_RootOrder
@@ -922,7 +922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3189167902236241273, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8299650273285470448, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_RootOrder
@@ -983,7 +983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3189167902236241273, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8299650273285470448, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_RootOrder
@@ -1221,13 +1221,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 841425822089709922, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
+      propertyPath: m_Width
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 841425822089709922, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
+      propertyPath: m_Height
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 2068624370155850344, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_BehaviorType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2648929089823589127, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
+      propertyPath: m_BehaviorType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3189167902236241273, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_Name
       value: SmallArena
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298151705422896064, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
+      propertyPath: Record
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5041824126579368109, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
+      propertyPath: MaxStep
+      value: 50000
       objectReference: {fileID: 0}
     - target: {fileID: 8299650273285470448, guid: f81f4d4c46b944b978c932cf0c534b6f, type: 3}
       propertyPath: m_RootOrder

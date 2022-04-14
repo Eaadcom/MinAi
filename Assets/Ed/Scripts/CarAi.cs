@@ -39,7 +39,7 @@ public class CarAi : Agent
     public override void OnActionReceived(ActionBuffers actions)
     {
         
-        float previousDistance = Vector3.Distance(carcontroller.transform.localPosition, randomizeGoal.transform.localPosition);
+        //float previousDistance = Vector3.Distance(carcontroller.transform.localPosition, randomizeGoal.transform.localPosition);
         
         float movefoward = actions.ContinuousActions[0];
         float turn = actions.ContinuousActions[1];
@@ -49,13 +49,13 @@ public class CarAi : Agent
         float currentDistance = Vector3.Distance(carcontroller.transform.localPosition, randomizeGoal.transform.localPosition);
 
         // Reward or Penalty
-        if (currentDistance < previousDistance)
+        /*if (currentDistance < previousDistance)
         {
             SetReward(+0.001f);
         } else {
             SetReward(-0.001f);
-        }
-        
+        }*/
+        SetReward(-0.001f);
         steps++;
         if (MaxStep == steps)
         {

@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Random = UnityEngine.Random;
 
 [System.Serializable]
 public class BasicAxleInfo {
@@ -61,9 +62,12 @@ public class BasicCarController : MonoBehaviour {
 
     public void resetPosition()
     {
-        transform.localPosition = Vector3.zero;
+        //transform.localPosition = Vector3.zero;
+        transform.localPosition = new Vector3(UnityEngine.Random.Range(-19,19), 0, UnityEngine.Random.Range(-19,19));
         transform.rotation = Quaternion.identity;
         
+        transform.eulerAngles = new Vector3(transform.eulerAngles.x, UnityEngine.Random.Range(0, 360), transform.eulerAngles.z);
+
         RB.velocity = Vector3.zero;
         RB.angularVelocity = Vector3.zero;
     }

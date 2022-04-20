@@ -1,0 +1,65 @@
+{
+    "CarFindGoal": {
+        "checkpoints": [
+            {
+                "steps": 499948,
+                "file_path": "results/randomPositonAgent/CarFindGoal/CarFindGoal-499948.onnx",
+                "reward": -5.0,
+                "creation_time": 1649431907.874697,
+                "auxillary_file_paths": [
+                    "results/randomPositonAgent/CarFindGoal/CarFindGoal-499948.pt"
+                ]
+            },
+            {
+                "steps": 999986,
+                "file_path": "results/randomPositonAgent/CarFindGoal/CarFindGoal-999986.onnx",
+                "reward": -5.0,
+                "creation_time": 1649432332.644821,
+                "auxillary_file_paths": [
+                    "results/randomPositonAgent/CarFindGoal/CarFindGoal-999986.pt"
+                ]
+            },
+            {
+                "steps": 1499975,
+                "file_path": "results/randomPositonAgent/CarFindGoal/CarFindGoal-1499975.onnx",
+                "reward": -5.0,
+                "creation_time": 1649432736.9551082,
+                "auxillary_file_paths": [
+                    "results/randomPositonAgent/CarFindGoal/CarFindGoal-1499975.pt"
+                ]
+            },
+            {
+                "steps": 1999992,
+                "file_path": "results/randomPositonAgent/CarFindGoal/CarFindGoal-1999992.onnx",
+                "reward": -5.0,
+                "creation_time": 1649433101.976306,
+                "auxillary_file_paths": [
+                    "results/randomPositonAgent/CarFindGoal/CarFindGoal-1999992.pt"
+                ]
+            },
+            {
+                "steps": 2362998,
+                "file_path": "results/randomPositonAgent/CarFindGoal/CarFindGoal-2362998.onnx",
+                "reward": null,
+                "creation_time": 1649433457.23924,
+                "auxillary_file_paths": [
+                    "results/randomPositonAgent/CarFindGoal/CarFindGoal-2362998.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2362998,
+            "file_path": "results/randomPositonAgent/CarFindGoal.onnx",
+            "reward": null,
+            "creation_time": 1649433457.23924,
+            "auxillary_file_paths": [
+                "results/randomPositonAgent/CarFindGoal/CarFindGoal-2362998.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.8.1"
+    }
+}

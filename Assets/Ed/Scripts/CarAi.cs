@@ -17,6 +17,7 @@ public class CarAi : Agent
     private BasicCarController carcontroller;
     private RandomizeGoal randomizeGoal;
     private int steps;
+    private float bonusReward;
     void Awake()
     {
         carcontroller = gameObject.GetComponent<BasicCarController>();
@@ -28,6 +29,7 @@ public class CarAi : Agent
         carcontroller.resetPosition();
         randomizeGoal.NewGoalPosition();
         steps = 0;
+        bonusReward = 3;
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -51,17 +53,19 @@ public class CarAi : Agent
         // Reward or Penalty
         if (currentDistance < previousDistance)
         {
-            SetReward(+0.001f);
+            SetReward(+0.0015f);
         } 
         else {
-            SetReward(-0.001f);
+            SetReward(-0.0015f);
         }
+
+        bonusReward = bonusReward - 0.0006f;
         
         steps++;
         if (MaxStep == steps)
         {
             floorColor.material = loseColor;
-            SetReward(-1f);
+            SetReward(-5f);
         }
     }
     
@@ -81,7 +85,8 @@ public class CarAi : Agent
     {
         if (other.TryGetComponent<CarAiTarget>(out CarAiTarget target))
         {
-            SetReward(+10f);
+            SetReward(+7f);
+            SetReward(+bonusReward);
             floorColor.material = winColor;
             EndEpisode();
         }

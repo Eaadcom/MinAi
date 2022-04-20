@@ -312,6 +312,9 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   targetTransform: {fileID: 0}
+  floorColor: {fileID: 0}
+  winColor: {fileID: 0}
+  loseColor: {fileID: 0}
 --- !u!114 &2300444010741179857
 MonoBehaviour:
   m_ObjectHideFlags: 0

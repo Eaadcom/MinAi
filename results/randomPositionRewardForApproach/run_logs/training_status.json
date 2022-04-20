@@ -1,0 +1,65 @@
+{
+    "CarFindGoal": {
+        "checkpoints": [
+            {
+                "steps": 2499999,
+                "file_path": "results/randomPositionRewardForApproach/CarFindGoal/CarFindGoal-2499999.onnx",
+                "reward": null,
+                "creation_time": 1649435445.818798,
+                "auxillary_file_paths": [
+                    "results/randomPositionRewardForApproach/CarFindGoal/CarFindGoal-2499999.pt"
+                ]
+            },
+            {
+                "steps": 2999975,
+                "file_path": "results/randomPositionRewardForApproach/CarFindGoal/CarFindGoal-2999975.onnx",
+                "reward": -6.907055946687858,
+                "creation_time": 1649435809.5657458,
+                "auxillary_file_paths": [
+                    "results/randomPositionRewardForApproach/CarFindGoal/CarFindGoal-2999975.pt"
+                ]
+            },
+            {
+                "steps": 3499971,
+                "file_path": "results/randomPositionRewardForApproach/CarFindGoal/CarFindGoal-3499971.onnx",
+                "reward": -5.521153468224737,
+                "creation_time": 1649436173.941002,
+                "auxillary_file_paths": [
+                    "results/randomPositionRewardForApproach/CarFindGoal/CarFindGoal-3499971.pt"
+                ]
+            },
+            {
+                "steps": 3999949,
+                "file_path": "results/randomPositionRewardForApproach/CarFindGoal/CarFindGoal-3999949.onnx",
+                "reward": -7.903071769646236,
+                "creation_time": 1649436539.243881,
+                "auxillary_file_paths": [
+                    "results/randomPositionRewardForApproach/CarFindGoal/CarFindGoal-3999949.pt"
+                ]
+            },
+            {
+                "steps": 4326577,
+                "file_path": "results/randomPositionRewardForApproach/CarFindGoal/CarFindGoal-4326577.onnx",
+                "reward": null,
+                "creation_time": 1649436842.889916,
+                "auxillary_file_paths": [
+                    "results/randomPositionRewardForApproach/CarFindGoal/CarFindGoal-4326577.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4326577,
+            "file_path": "results/randomPositionRewardForApproach/CarFindGoal.onnx",
+            "reward": null,
+            "creation_time": 1649436842.889916,
+            "auxillary_file_paths": [
+                "results/randomPositionRewardForApproach/CarFindGoal/CarFindGoal-4326577.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.8.1"
+    }
+}

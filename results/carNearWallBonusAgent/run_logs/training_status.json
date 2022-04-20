@@ -1,0 +1,65 @@
+{
+    "CarFindGoal": {
+        "checkpoints": [
+            {
+                "steps": 8999956,
+                "file_path": "results/carNearWallBonusAgent/CarFindGoal/CarFindGoal-8999956.onnx",
+                "reward": 0.6458552754842318,
+                "creation_time": 1649429810.083424,
+                "auxillary_file_paths": [
+                    "results/carNearWallBonusAgent/CarFindGoal/CarFindGoal-8999956.pt"
+                ]
+            },
+            {
+                "steps": 9499968,
+                "file_path": "results/carNearWallBonusAgent/CarFindGoal/CarFindGoal-9499968.onnx",
+                "reward": 1.803602287856241,
+                "creation_time": 1649430230.232629,
+                "auxillary_file_paths": [
+                    "results/carNearWallBonusAgent/CarFindGoal/CarFindGoal-9499968.pt"
+                ]
+            },
+            {
+                "steps": 9999988,
+                "file_path": "results/carNearWallBonusAgent/CarFindGoal/CarFindGoal-9999988.onnx",
+                "reward": 1.1291231176127559,
+                "creation_time": 1649430660.288345,
+                "auxillary_file_paths": [
+                    "results/carNearWallBonusAgent/CarFindGoal/CarFindGoal-9999988.pt"
+                ]
+            },
+            {
+                "steps": 10499953,
+                "file_path": "results/carNearWallBonusAgent/CarFindGoal/CarFindGoal-10499953.onnx",
+                "reward": 0.3000863393147786,
+                "creation_time": 1649431067.1850839,
+                "auxillary_file_paths": [
+                    "results/carNearWallBonusAgent/CarFindGoal/CarFindGoal-10499953.pt"
+                ]
+            },
+            {
+                "steps": 10991332,
+                "file_path": "results/carNearWallBonusAgent/CarFindGoal/CarFindGoal-10991332.onnx",
+                "reward": 2.5374095598856607,
+                "creation_time": 1649431476.100456,
+                "auxillary_file_paths": [
+                    "results/carNearWallBonusAgent/CarFindGoal/CarFindGoal-10991332.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10991332,
+            "file_path": "results/carNearWallBonusAgent/CarFindGoal.onnx",
+            "reward": 2.5374095598856607,
+            "creation_time": 1649431476.100456,
+            "auxillary_file_paths": [
+                "results/carNearWallBonusAgent/CarFindGoal/CarFindGoal-10991332.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.8.1"
+    }
+}

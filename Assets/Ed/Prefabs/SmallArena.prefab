@@ -873,6 +873,14 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 3172710885654224719}
+    - target: {fileID: 4021112235700934796, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
+      propertyPath: m_InferenceDevice
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7962591693037154889, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
+      propertyPath: MaxStep
+      value: 4000
+      objectReference: {fileID: 0}
     - target: {fileID: 7962591693037154889, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
       propertyPath: floorColor
       value: 

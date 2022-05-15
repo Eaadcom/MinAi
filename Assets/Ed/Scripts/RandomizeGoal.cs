@@ -8,10 +8,9 @@ public class RandomizeGoal : MonoBehaviour
 {
     [SerializeField]
     private Transform targetTransform;
-
     public void NewGoalPosition()
     {
-        targetTransform.localPosition = new Vector3(UnityEngine.Random.Range(-19,19), 0, UnityEngine.Random.Range(-19,19));
+        targetTransform.localPosition = new Vector3(UnityEngine.Random.Range(-19,19), targetTransform.localPosition.y, UnityEngine.Random.Range(-19,19));
     }
 
 }

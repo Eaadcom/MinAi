@@ -12,3 +12,6 @@ mlagents-learn config/CarFindGoal.yaml --run-id=car2
 
 **venv uitzetten**
 deactivate
+
+**tensorboard visulalisation**
+tensorboard --logdir results

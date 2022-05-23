@@ -46,7 +46,7 @@ public class CarAi : Agent
 
         carcontroller.Input(movefoward, turn);
         
-        float currentDistance = Vector3.Distance(carcontroller.transform.localPosition, randomizeGoal.transform.localPosition);
+        //float currentDistance = Vector3.Distance(carcontroller.transform.localPosition, randomizeGoal.transform.localPosition);
 
         // Reward or Penalty
         /*if (currentDistance < previousDistance)
@@ -55,10 +55,11 @@ public class CarAi : Agent
         } else {
             SetReward(-0.001f);
         }*/
-        SetReward(-0.001f);
+        //SetReward(-0.001f);
         steps++;
         if (MaxStep == steps)
         {
+            SetReward(-2f);
             floorColor.material = loseColor;
         }
     }
@@ -79,13 +80,13 @@ public class CarAi : Agent
     {
         if (other.TryGetComponent<CarAiTarget>(out CarAiTarget target))
         {
-            SetReward(+10f);
+            SetReward(+5f);
             floorColor.material = winColor;
             EndEpisode();
         }
         if (other.TryGetComponent<Wallarea>(out Wallarea wallarea))
         {
-            SetReward(-10f);
+            SetReward(-5f);
             floorColor.material = loseColor;
             EndEpisode();
         }

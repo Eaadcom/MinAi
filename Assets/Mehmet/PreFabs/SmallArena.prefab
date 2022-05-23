@@ -848,14 +848,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1775094372551070441, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
       propertyPath: m_Width
-      value: 64
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 1775094372551070441, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
       propertyPath: m_Height
-      value: 64
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 1775094372551070441, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
       propertyPath: m_Grayscale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775094372551070441, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
+      propertyPath: m_ObservationStacks
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2929913211609448523, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
@@ -876,7 +880,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4021112235700934796, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
       propertyPath: m_InferenceDevice
-      value: 3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021112235700934796, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
+      propertyPath: m_UseChildSensors
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021112235700934796, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
+      propertyPath: m_BrainParameters.VectorActionSpaceType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021112235700934796, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
+      propertyPath: m_BrainParameters.VectorActionSize.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021112235700934796, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
+      propertyPath: m_BrainParameters.VectorActionSize.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021112235700934796, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
+      propertyPath: m_BrainParameters.m_ActionSpec.BranchSizes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021112235700934796, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
+      propertyPath: m_BrainParameters.m_ActionSpec.m_NumContinuousActions
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7962591693037154889, guid: b6dca2140ee430b4ab6644ae85791d4c, type: 3}
       propertyPath: MaxStep

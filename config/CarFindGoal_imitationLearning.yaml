@@ -21,10 +21,10 @@ behaviors:
         strength: 1.0
       gail:
         strength: 0.5
-        demo_path: Demos\carImitation1.demo
+        demo_path: Demos\testCarVisual1.demo
     behavioral_cloning:
-        strength: 0.5
-        demo_path: Demos\carImitation1.demo
+      strength: 0.5
+      demo_path: Demos\testCarVisual1.demo
     keep_checkpoints: 5
     max_steps: 5000000000
     time_horizon: 3

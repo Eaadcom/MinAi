@@ -1,5 +1,5 @@
 behaviors:
-  CarFindGoal_visual:
+  testCarVisual:
     trainer_type: ppo
     hyperparameters:
       batch_size: 256

@@ -854,6 +854,18 @@ PrefabInstance:
       propertyPath: floorColor
       value: 
       objectReference: {fileID: 3172710886581801532}
+    - target: {fileID: 5933493755354647942, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
+      propertyPath: m_Width
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 5933493755354647942, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
+      propertyPath: m_Height
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 9090480546278033972, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: e706aab6ebe3f8f4aa59064118e352aa, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
 --- !u!4 &3345339548247869318 stripped

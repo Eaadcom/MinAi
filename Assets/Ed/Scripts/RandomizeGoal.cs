@@ -10,7 +10,10 @@ public class RandomizeGoal : MonoBehaviour
     private Transform targetTransform;
     public void NewGoalPosition()
     {
-        targetTransform.localPosition = new Vector3(UnityEngine.Random.Range(-19,19), targetTransform.localPosition.y, UnityEngine.Random.Range(-19,19));
+        if (targetTransform != null)
+        {
+            targetTransform.localPosition = new Vector3(UnityEngine.Random.Range(-19, 19), targetTransform.localPosition.y, UnityEngine.Random.Range(-19, 19));
+        }
     }
 
 }

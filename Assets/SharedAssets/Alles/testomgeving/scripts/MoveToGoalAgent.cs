@@ -19,6 +19,7 @@ namespace bigArena
         public override void OnEpisodeBegin()
         {
             Spawnobject = GameObject.FindGameObjectWithTag("Respawn").GetComponent<spawnobject>();
+            Debug.Log(Spawnobject.name);
             transform.localPosition = Vector3.zero;
             Spawnobject.SpawnGoal();
 

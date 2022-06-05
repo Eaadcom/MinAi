@@ -27,7 +27,7 @@ namespace testcar
         }
         public void Awake()
         {
-            Spawnobject = GameObject.FindGameObjectWithTag("Respawn").GetComponent<bigArena.spawnobject>();
+            //Spawnobject = GameObject.FindGameObjectWithTag("Respawn").GetComponent<bigArena.spawnobject>();
         }
         public void resetPosition()
         {

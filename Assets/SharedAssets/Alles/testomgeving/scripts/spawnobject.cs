@@ -11,13 +11,19 @@ namespace bigArena
         public GameObject Goalprefab;
         public Vector3 center;
         public float spawnCollisionCheck;
-        public Vector3 size;
+        public GameObject platform;
+        private Vector3 size;
         public List<GameObject> CloneWalls = new List<GameObject>();
 
 
         // Start is called before the first frame update
         void Start()
         {
+            size = platform.transform.localScale;
+            center = platform.transform.position;
+            center.y += 0.8f;
+            //center = platform.transform.position;
+            //center.y += 0.8f;
             SpawnGoal();
         }
 
@@ -31,9 +37,10 @@ namespace bigArena
 
         public void SpawnWall()
         {
-
+            Debug.Log($"{center.x}  {center.z}");
             for (int i = 0; i < 15; i++)
             {
+
                 Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2),
                     Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
                 if (!Physics.CheckBox(pos, -pos))
@@ -42,14 +49,14 @@ namespace bigArena
                 }
 
                 CloneWalls.AddRange(GameObject.FindGameObjectsWithTag("wall"));
-
+                
             }
         }
 
         public void SpawnGoal()
         {
             Goalprefab.transform.position = center + new Vector3(Random.Range(-size.x / 2, size.x / 2),
-                (float)(Random.Range(-size.y / 2, size.y / 2) + 0.2), Random.Range(-size.z / 2, size.z / 2));
+                Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
 
         }
 

@@ -1124,6 +1124,7 @@ MonoBehaviour:
   center: {x: 0.8, y: 0.8, z: 0.8}
   spawnCollisionCheck: 1
   platform: {fileID: 4769081166618567371}
+  WallsCount: 15
   CloneWalls: []
 --- !u!1 &7267431067174881912
 GameObject:

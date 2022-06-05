@@ -13,6 +13,7 @@ namespace bigArena
         public float spawnCollisionCheck;
         public GameObject platform;
         private Vector3 size;
+        public int WallsCount;
         public List<GameObject> CloneWalls = new List<GameObject>();
 
 
@@ -38,17 +39,20 @@ namespace bigArena
         public void SpawnWall()
         {
             Debug.Log($"{center.x}  {center.z}");
-            for (int i = 0; i < 15; i++)
+            for (int i = 0; i < WallsCount; i++)
             {
 
                 Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2),
                     Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
                 if (!Physics.CheckBox(pos, -pos))
                 {
-                    Instantiate(Wallprefab, pos, Quaternion.Euler(0, Random.Range(0, 360), 0));
+                    Transform WallClone = Instantiate(Wallprefab, pos, Quaternion.Euler(0, Random.Range(0, 360), 0));
+                    //This changes the height of the instantiated clone randomly.
+                    WallClone.localScale = new Vector3(WallClone.localScale.x ,Random.Range(2f, 6f), WallClone.localScale.z);
+                    CloneWalls.Add(WallClone.gameObject);
                 }
 
-                CloneWalls.AddRange(GameObject.FindGameObjectsWithTag("wall"));
+                //CloneWalls.AddRange(GameObject.FindGameObjectsWithTag("wall"));
                 
             }
         }

@@ -16,6 +16,7 @@ namespace testcar
 
         public override void OnEpisodeBegin()
         {
+            Spawnobject.Kill();
             resetPosition();
 
             //Spawnwall
@@ -76,14 +77,14 @@ namespace testcar
             {
                 SetReward(+5f);
                 floorColor.material = winColor;
-                Spawnobject.Kill();
+                //Spawnobject.Kill();
                 EndEpisode();
             }
             if (other.TryGetComponent<bigArena.Wall>(out bigArena.Wall wallarea))
             {
                 SetReward(-5f);
                 floorColor.material = loseColor;
-                Spawnobject.Kill();
+                //Spawnobject.Kill();
                 EndEpisode();
             }
         }

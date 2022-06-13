@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 1390056208346316081}
   - component: {fileID: 4554729147924429440}
   - component: {fileID: 4554729147924429445}
+  - component: {fileID: 5427221847417886547}
   m_Layer: 0
   m_Name: car
   m_TagString: Untagged
@@ -149,7 +150,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 56f4714ea623bbd418d1e5b17eeb5860, type: 3}
+  m_Model: {fileID: 0}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: testCarVisual
@@ -211,6 +212,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 5
   TakeActionsBetweenDecisions: 1
+--- !u!114 &5427221847417886547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4554729147924429444}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2902496c0120472b90269f94a0aec7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Record: 0
+  NumStepsToRecord: 0
+  DemonstrationName: bigarenavisual256x256
+  DemonstrationDirectory: Demos
 --- !u!1 &4554729149011822643
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,8 +459,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4769081166089799216}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1659739, y: 0.83138084, z: -79.56}
-  m_LocalScale: {x: 157.5, y: 5, z: 1}
+  m_LocalPosition: {x: -0.1659739, y: 6.5, z: -79.56}
+  m_LocalScale: {x: 157.5, y: 14.198686, z: 1}
   m_Children: []
   m_Father: {fileID: 4769081166735951971}
   m_RootOrder: 1
@@ -780,8 +797,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4769081167657060746}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1659739, y: 0.8213806, z: 77.85072}
-  m_LocalScale: {x: 157.5, y: 5, z: 1}
+  m_LocalPosition: {x: -0.1659739, y: 6.47161, z: 77.851}
+  m_LocalScale: {x: 157.5, y: 14.198686, z: 1}
   m_Children: []
   m_Father: {fileID: 4769081166735951971}
   m_RootOrder: 2
@@ -888,8 +905,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4769081167791983604}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 78.18402, y: 0.8213806, z: -1.0492744}
-  m_LocalScale: {x: 157.5, y: 5, z: 1}
+  m_LocalPosition: {x: 78.18402, y: 6.47161, z: -1.0492744}
+  m_LocalScale: {x: 157.5, y: 14.198686, z: 1}
   m_Children: []
   m_Father: {fileID: 4769081166735951971}
   m_RootOrder: 4
@@ -996,8 +1013,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4769081167839698438}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -78.265976, y: 0.8213806, z: -1.089283}
-  m_LocalScale: {x: 157.5, y: 5, z: 1}
+  m_LocalPosition: {x: -78.266, y: 6.47161, z: -1.089283}
+  m_LocalScale: {x: 157.5, y: 14.198686, z: 1}
   m_Children: []
   m_Father: {fileID: 4769081166735951971}
   m_RootOrder: 3
@@ -1124,7 +1141,7 @@ MonoBehaviour:
   center: {x: 0.8, y: 0.8, z: 0.8}
   spawnCollisionCheck: 1
   platform: {fileID: 4769081166618567371}
-  WallsCount: 4
+  WallsCount: 0
   CloneWalls: []
 --- !u!1 &7267431067174881912
 GameObject:

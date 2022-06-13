@@ -48,7 +48,7 @@ namespace bigArena
                 {
                     Transform WallClone = Instantiate(Wallprefab, pos, Quaternion.Euler(0, Random.Range(0, 360), 0));
                     //This changes the height of the instantiated clone randomly.
-                    WallClone.localScale = new Vector3(WallClone.localScale.x ,Random.Range(2f, 6f), WallClone.localScale.z);
+                    WallClone.localScale = new Vector3(WallClone.localScale.x ,Random.Range(2f, 12f), WallClone.localScale.z);
                     CloneWalls.Add(WallClone.gameObject);
                 }
 

@@ -50,11 +50,13 @@ namespace testcar
             if (movement < 0)
             {
                 transform.localPosition += -transform.forward * moveSpeed * Time.deltaTime;
+                //AddReward(-.005f);
             }
             else if (movement > 0)
             {
                 transform.localPosition += transform.forward * moveSpeed * Time.deltaTime;
             }
+            //AddReward(-0.0001f);
         }
 
         /*public override void CollectObservations(VectorSensor sensor)
@@ -69,20 +71,21 @@ namespace testcar
             Debug.Log(continuousActions[0]);
             continuousActions[0] = Input.GetAxisRaw("Horizontal");
             continuousActions[1] = Input.GetAxisRaw("Vertical");
+          
         }
 
         private void OnTriggerEnter(Collider other)
         {
             if (other.TryGetComponent<CarAiTarget>(out CarAiTarget target))
             {
-                SetReward(+5f);
+                SetReward(+2f);
                 floorColor.material = winColor;
                 //Spawnobject.Kill();
                 EndEpisode();
             }
             if (other.TryGetComponent<bigArena.Wall>(out bigArena.Wall wallarea))
             {
-                SetReward(-5f);
+                SetReward(-2f);
                 floorColor.material = loseColor;
                 //Spawnobject.Kill();
                 EndEpisode();

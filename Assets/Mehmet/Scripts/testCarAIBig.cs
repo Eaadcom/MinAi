@@ -78,14 +78,14 @@ namespace testcar
         {
             if (other.TryGetComponent<CarAiTarget>(out CarAiTarget target))
             {
-                SetReward(+2f);
+                SetReward(+5f);
                 floorColor.material = winColor;
                 //Spawnobject.Kill();
                 EndEpisode();
             }
             if (other.TryGetComponent<bigArena.Wall>(out bigArena.Wall wallarea))
             {
-                SetReward(-2f);
+                SetReward(-5f);
                 floorColor.material = loseColor;
                 //Spawnobject.Kill();
                 EndEpisode();

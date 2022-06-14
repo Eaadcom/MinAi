@@ -12,6 +12,7 @@ namespace testcar
         [SerializeField] private MeshRenderer floorColor;
         public bigArena.spawnobject Spawnobject;
         private int steps;
+        private float distance;
 
 
         public override void OnEpisodeBegin()
@@ -24,6 +25,7 @@ namespace testcar
             Spawnobject.SpawnWall();
 
             steps = 0;
+            distance = Vector3.Distance(transform.localPosition, Spawnobject.Goalprefab.transform.localPosition);
             Debug.Log("start");
         }
         public void Awake()
@@ -39,8 +41,10 @@ namespace testcar
         }
         public override void OnActionReceived(ActionBuffers actions)
         {
-            float rotation = actions.ContinuousActions[0];
-            float movement = actions.ContinuousActions[1];
+            //float rotation = actions.ContinuousActions[0];
+            //float movement = actions.ContinuousActions[1];
+            float rotation = actions.DiscreteActions[0] <= 1 ? actions.DiscreteActions[0] : -1;
+            float movement = actions.DiscreteActions[1] <= 1 ? actions.DiscreteActions[1] : -1;
             float moveSpeed = 8f;
             float rotateSpeed = 100f;
             if (movement != 0)
@@ -50,11 +54,22 @@ namespace testcar
             if (movement < 0)
             {
                 transform.localPosition += -transform.forward * moveSpeed * Time.deltaTime;
-                //AddReward(-.005f);
             }
             else if (movement > 0)
             {
                 transform.localPosition += transform.forward * moveSpeed * Time.deltaTime;
+                //Try out training while rewarding getting closer to the goal.
+                float newDistance = Vector3.Distance(transform.localPosition, Spawnobject.Goalprefab.transform.localPosition);
+                if(newDistance < this.distance)
+                {
+                    AddReward(.0002f);
+                }
+                else
+                {
+                    AddReward(-.0002f);
+                }
+
+                this.distance = newDistance;
             }
             //AddReward(-0.0001f);
         }
@@ -67,11 +82,16 @@ namespace testcar
 
         public override void Heuristic(in ActionBuffers actionsOut)
         {
-            ActionSegment<float> continuousActions = actionsOut.ContinuousActions;
+            /*ActionSegment<float> continuousActions = actionsOut.ContinuousActions;
             Debug.Log(continuousActions[0]);
             continuousActions[0] = Input.GetAxisRaw("Horizontal");
             continuousActions[1] = Input.GetAxisRaw("Vertical");
-          
+            */
+            ActionSegment<int> discreteActions = actionsOut.DiscreteActions;
+            int vertical = Mathf.RoundToInt(Input.GetAxisRaw("Vertical"));
+            int horizontal = Mathf.RoundToInt(Input.GetAxisRaw("Horizontal"));
+            discreteActions[0] = horizontal >= 0 ? horizontal : 2;
+            discreteActions[1] = vertical >= 0 ? vertical : 2;
         }
 
         private void OnTriggerEnter(Collider other)
@@ -79,14 +99,14 @@ namespace testcar
             if (other.TryGetComponent<CarAiTarget>(out CarAiTarget target))
             {
                 SetReward(+5f);
-                floorColor.material = winColor;
+                //floorColor.material = winColor;
                 //Spawnobject.Kill();
                 EndEpisode();
             }
             if (other.TryGetComponent<bigArena.Wall>(out bigArena.Wall wallarea))
             {
                 SetReward(-5f);
-                floorColor.material = loseColor;
+                //floorColor.material = loseColor;
                 //Spawnobject.Kill();
                 EndEpisode();
             }

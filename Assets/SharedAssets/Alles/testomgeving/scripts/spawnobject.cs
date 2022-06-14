@@ -20,7 +20,9 @@ namespace bigArena
         // Start is called before the first frame update
         void Start()
         {
-            size = platform.transform.localScale;
+            Vector3 surrounding = platform.transform.parent.transform.localScale;
+            //transform.localScale = new Vector3(platform.transform.localScale.x * surrounding.x, 1, platform.transform.localScale.z * surrounding.z);
+            size = platform.transform.localScale * surrounding.z;
             center = platform.transform.position;
             center.y += 0.8f;
             //center = platform.transform.position;
@@ -61,7 +63,6 @@ namespace bigArena
         {
             Goalprefab.transform.position = center + new Vector3(Random.Range(-size.x / 2, size.x / 2),
                 .2f, Random.Range(-size.z / 2, size.z / 2));
-
         }
 
         void OnDrawGizmosSelected()

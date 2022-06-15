@@ -28,7 +28,6 @@ namespace bigArena
             center.y += 0.8f;
             //center = platform.transform.position;
             //center.y += 0.8f;*/
-
             float arenaScale = Academy.Instance.EnvironmentParameters.GetWithDefault("arenaScale", 1f);
             platform.transform.parent.transform.localScale = new Vector3(arenaScale, 1, arenaScale);
             size = platform.transform.localScale * platform.transform.parent.transform.localScale.z;
@@ -57,7 +56,6 @@ namespace bigArena
         }
         public void SpawnWall()
         {
-            Debug.Log($"{center.x}  {center.z}");
             for (int i = 0; i < WallsCount; i++)
             {
 

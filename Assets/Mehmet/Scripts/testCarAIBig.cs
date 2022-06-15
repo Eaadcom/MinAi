@@ -11,8 +11,8 @@ namespace testcar
         [SerializeField] private Material loseColor;
         [SerializeField] private MeshRenderer floorColor;
         public bigArena.spawnobject Spawnobject;
-        private int steps;
-        private float distance;
+        //private int steps;
+        //private float distance;
 
 
         public override void OnEpisodeBegin()
@@ -20,12 +20,12 @@ namespace testcar
             Spawnobject.Kill();
             resetPosition();
 
-            //Spawnwall
-            Spawnobject.SpawnGoal();
-            Spawnobject.SpawnWall();
+            //Reset arena, walls and goal.
+            Spawnobject.ResetArena();
 
-            steps = 0;
-            distance = Vector3.Distance(transform.localPosition, Spawnobject.Goalprefab.transform.localPosition);
+
+            //steps = 0;
+            //distance = Vector3.Distance(transform.localPosition, Spawnobject.Goalprefab.transform.localPosition);
             Debug.Log("start");
         }
         public void Awake()
@@ -59,7 +59,7 @@ namespace testcar
             {
                 transform.localPosition += transform.forward * moveSpeed * Time.deltaTime;
                 //Try out training while rewarding getting closer to the goal.
-                float newDistance = Vector3.Distance(transform.localPosition, Spawnobject.Goalprefab.transform.localPosition);
+                /*float newDistance = Vector3.Distance(transform.localPosition, Spawnobject.Goalprefab.transform.localPosition);
                 if(newDistance < this.distance)
                 {
                     AddReward(.0002f);
@@ -69,7 +69,7 @@ namespace testcar
                     AddReward(-.0002f);
                 }
 
-                this.distance = newDistance;
+                this.distance = newDistance;*/
             }
             //AddReward(-0.0001f);
         }
@@ -98,14 +98,14 @@ namespace testcar
         {
             if (other.TryGetComponent<CarAiTarget>(out CarAiTarget target))
             {
-                SetReward(+5f);
+                SetReward(+2f);
                 //floorColor.material = winColor;
                 //Spawnobject.Kill();
                 EndEpisode();
             }
             if (other.TryGetComponent<bigArena.Wall>(out bigArena.Wall wallarea))
             {
-                SetReward(-5f);
+                SetReward(-2f);
                 //floorColor.material = loseColor;
                 //Spawnobject.Kill();
                 EndEpisode();

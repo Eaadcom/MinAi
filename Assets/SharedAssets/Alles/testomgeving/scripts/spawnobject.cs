@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.MLAgents;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -20,16 +21,33 @@ namespace bigArena
         // Start is called before the first frame update
         void Start()
         {
-            Vector3 surrounding = platform.transform.parent.transform.localScale;
+            /*Vector3 surrounding = platform.transform.parent.transform.localScale;
             //transform.localScale = new Vector3(platform.transform.localScale.x * surrounding.x, 1, platform.transform.localScale.z * surrounding.z);
             size = platform.transform.localScale * surrounding.z;
             center = platform.transform.position;
             center.y += 0.8f;
             //center = platform.transform.position;
-            //center.y += 0.8f;
+            //center.y += 0.8f;*/
+
+            float arenaScale = Academy.Instance.EnvironmentParameters.GetWithDefault("arenaScale", 1f);
+            platform.transform.parent.transform.localScale = new Vector3(arenaScale, 1, arenaScale);
+            size = platform.transform.localScale * platform.transform.parent.transform.localScale.z;
+            center = platform.transform.position;
+            center.y += 0.8f;
             SpawnGoal();
         }
 
+        public void ResetArena()
+        {
+            float arenaScale = Academy.Instance.EnvironmentParameters.GetWithDefault("arenaScale", 1f);
+            platform.transform.parent.transform.localScale = new Vector3(arenaScale, 1, arenaScale);
+            size = platform.transform.localScale * platform.transform.parent.transform.localScale.z;
+            center = platform.transform.position;
+            center.y += 0.8f;
+
+            SpawnWall();
+            SpawnGoal();
+        }
 
         // Update is called once per frame
         void Update()
@@ -37,7 +55,6 @@ namespace bigArena
             /* if(Input.GetKey(KeyCode.T))
              SpawnWall();*/
         }
-
         public void SpawnWall()
         {
             Debug.Log($"{center.x}  {center.z}");

@@ -38,11 +38,13 @@ namespace bigArena
 
         public void ResetArena()
         {
+            WallsCount = (int)Academy.Instance.EnvironmentParameters.GetWithDefault("WallQuantity", WallsCount);
+
             float arenaScale = Academy.Instance.EnvironmentParameters.GetWithDefault("arenaScale", 1f);
             platform.transform.parent.transform.localScale = new Vector3(arenaScale, 1, arenaScale);
             size = platform.transform.localScale * platform.transform.parent.transform.localScale.z;
             center = platform.transform.position;
-            center.y += 0.8f;
+            center.y += 1.7f;
 
             SpawnWall();
             SpawnGoal();

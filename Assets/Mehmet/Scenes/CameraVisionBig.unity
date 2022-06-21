@@ -896,6 +896,10 @@ PrefabInstance:
       propertyPath: Wallprefab
       value: 
       objectReference: {fileID: 1135771821}
+    - target: {fileID: 5331463924172213658, guid: 2e7596b6bc405324b956735a44557891, type: 3}
+      propertyPath: WallsCount
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e7596b6bc405324b956735a44557891, type: 3}
 --- !u!4 &1135771821 stripped

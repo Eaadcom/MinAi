@@ -1,0 +1,65 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 1999980,
+                "file_path": "results\\small_arena_penalty_onmaxsteps\\testCarVisual\\testCarVisual-1999980.onnx",
+                "reward": -2.0,
+                "creation_time": 1655224360.5001862,
+                "auxillary_file_paths": [
+                    "results\\small_arena_penalty_onmaxsteps\\testCarVisual\\testCarVisual-1999980.pt"
+                ]
+            },
+            {
+                "steps": 2499984,
+                "file_path": "results\\small_arena_penalty_onmaxsteps\\testCarVisual\\testCarVisual-2499984.onnx",
+                "reward": -5.0,
+                "creation_time": 1655226456.5966349,
+                "auxillary_file_paths": [
+                    "results\\small_arena_penalty_onmaxsteps\\testCarVisual\\testCarVisual-2499984.pt"
+                ]
+            },
+            {
+                "steps": 2999947,
+                "file_path": "results\\small_arena_penalty_onmaxsteps\\testCarVisual\\testCarVisual-2999947.onnx",
+                "reward": -1.8888888888888888,
+                "creation_time": 1655228764.157054,
+                "auxillary_file_paths": [
+                    "results\\small_arena_penalty_onmaxsteps\\testCarVisual\\testCarVisual-2999947.pt"
+                ]
+            },
+            {
+                "steps": 3499989,
+                "file_path": "results\\small_arena_penalty_onmaxsteps\\testCarVisual\\testCarVisual-3499989.onnx",
+                "reward": -2.0,
+                "creation_time": 1655231148.527512,
+                "auxillary_file_paths": [
+                    "results\\small_arena_penalty_onmaxsteps\\testCarVisual\\testCarVisual-3499989.pt"
+                ]
+            },
+            {
+                "steps": 3579050,
+                "file_path": "results\\small_arena_penalty_onmaxsteps\\testCarVisual\\testCarVisual-3579050.onnx",
+                "reward": -2.0,
+                "creation_time": 1655231549.5061197,
+                "auxillary_file_paths": [
+                    "results\\small_arena_penalty_onmaxsteps\\testCarVisual\\testCarVisual-3579050.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3579050,
+            "file_path": "results\\small_arena_penalty_onmaxsteps\\testCarVisual.onnx",
+            "reward": -2.0,
+            "creation_time": 1655231549.5061197,
+            "auxillary_file_paths": [
+                "results\\small_arena_penalty_onmaxsteps\\testCarVisual\\testCarVisual-3579050.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

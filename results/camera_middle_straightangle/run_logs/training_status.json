@@ -1,0 +1,47 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 499983,
+                "file_path": "results\\camera_middle_straightangle\\testCarVisual\\testCarVisual-499983.onnx",
+                "reward": 2.1142857142857143,
+                "creation_time": 1655295697.2713444,
+                "auxillary_file_paths": [
+                    "results\\camera_middle_straightangle\\testCarVisual\\testCarVisual-499983.pt"
+                ]
+            },
+            {
+                "steps": 999981,
+                "file_path": "results\\camera_middle_straightangle\\testCarVisual\\testCarVisual-999981.onnx",
+                "reward": 2.772727272727273,
+                "creation_time": 1655297372.7842677,
+                "auxillary_file_paths": [
+                    "results\\camera_middle_straightangle\\testCarVisual\\testCarVisual-999981.pt"
+                ]
+            },
+            {
+                "steps": 1000109,
+                "file_path": "results\\camera_middle_straightangle\\testCarVisual\\testCarVisual-1000109.onnx",
+                "reward": 2.772727272727273,
+                "creation_time": 1655297372.9398513,
+                "auxillary_file_paths": [
+                    "results\\camera_middle_straightangle\\testCarVisual\\testCarVisual-1000109.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000109,
+            "file_path": "results\\camera_middle_straightangle\\testCarVisual.onnx",
+            "reward": 2.772727272727273,
+            "creation_time": 1655297372.9398513,
+            "auxillary_file_paths": [
+                "results\\camera_middle_straightangle\\testCarVisual\\testCarVisual-1000109.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

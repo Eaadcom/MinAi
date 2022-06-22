@@ -1,0 +1,65 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 8499995,
+                "file_path": "results\\small_arena_differentangle\\testCarVisual\\testCarVisual-8499995.onnx",
+                "reward": -2.4285714285714284,
+                "creation_time": 1655260463.2771974,
+                "auxillary_file_paths": [
+                    "results\\small_arena_differentangle\\testCarVisual\\testCarVisual-8499995.pt"
+                ]
+            },
+            {
+                "steps": 8999958,
+                "file_path": "results\\small_arena_differentangle\\testCarVisual\\testCarVisual-8999958.onnx",
+                "reward": -2.0,
+                "creation_time": 1655262071.4153776,
+                "auxillary_file_paths": [
+                    "results\\small_arena_differentangle\\testCarVisual\\testCarVisual-8999958.pt"
+                ]
+            },
+            {
+                "steps": 9499978,
+                "file_path": "results\\small_arena_differentangle\\testCarVisual\\testCarVisual-9499978.onnx",
+                "reward": -2.0,
+                "creation_time": 1655263704.2068532,
+                "auxillary_file_paths": [
+                    "results\\small_arena_differentangle\\testCarVisual\\testCarVisual-9499978.pt"
+                ]
+            },
+            {
+                "steps": 9999950,
+                "file_path": "results\\small_arena_differentangle\\testCarVisual\\testCarVisual-9999950.onnx",
+                "reward": -2.0,
+                "creation_time": 1655265311.5857882,
+                "auxillary_file_paths": [
+                    "results\\small_arena_differentangle\\testCarVisual\\testCarVisual-9999950.pt"
+                ]
+            },
+            {
+                "steps": 10000014,
+                "file_path": "results\\small_arena_differentangle\\testCarVisual\\testCarVisual-10000014.onnx",
+                "reward": -2.0,
+                "creation_time": 1655265311.7299616,
+                "auxillary_file_paths": [
+                    "results\\small_arena_differentangle\\testCarVisual\\testCarVisual-10000014.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10000014,
+            "file_path": "results\\small_arena_differentangle\\testCarVisual.onnx",
+            "reward": -2.0,
+            "creation_time": 1655265311.7299616,
+            "auxillary_file_paths": [
+                "results\\small_arena_differentangle\\testCarVisual\\testCarVisual-10000014.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

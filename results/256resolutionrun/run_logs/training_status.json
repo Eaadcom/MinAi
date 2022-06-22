@@ -1,0 +1,38 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 499993,
+                "file_path": "results\\256resolutionrun\\testCarVisual\\testCarVisual-499993.onnx",
+                "reward": 1.8181818181818181,
+                "creation_time": 1653999855.2814841,
+                "auxillary_file_paths": [
+                    "results\\256resolutionrun\\testCarVisual\\testCarVisual-499993.pt"
+                ]
+            },
+            {
+                "steps": 500057,
+                "file_path": "results\\256resolutionrun\\testCarVisual\\testCarVisual-500057.onnx",
+                "reward": 1.8181818181818181,
+                "creation_time": 1653999855.8495789,
+                "auxillary_file_paths": [
+                    "results\\256resolutionrun\\testCarVisual\\testCarVisual-500057.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500057,
+            "file_path": "results\\256resolutionrun\\testCarVisual.onnx",
+            "reward": 1.8181818181818181,
+            "creation_time": 1653999855.8495789,
+            "auxillary_file_paths": [
+                "results\\256resolutionrun\\testCarVisual\\testCarVisual-500057.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

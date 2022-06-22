@@ -1,0 +1,47 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 499964,
+                "file_path": "results\\128resolution\\testCarVisual\\testCarVisual-499964.onnx",
+                "reward": 1.8461538461538463,
+                "creation_time": 1655719107.1211014,
+                "auxillary_file_paths": [
+                    "results\\128resolution\\testCarVisual\\testCarVisual-499964.pt"
+                ]
+            },
+            {
+                "steps": 999936,
+                "file_path": "results\\128resolution\\testCarVisual\\testCarVisual-999936.onnx",
+                "reward": 2.4545454545454546,
+                "creation_time": 1655720736.2140234,
+                "auxillary_file_paths": [
+                    "results\\128resolution\\testCarVisual\\testCarVisual-999936.pt"
+                ]
+            },
+            {
+                "steps": 1000064,
+                "file_path": "results\\128resolution\\testCarVisual\\testCarVisual-1000064.onnx",
+                "reward": 2.4545454545454546,
+                "creation_time": 1655720736.4239726,
+                "auxillary_file_paths": [
+                    "results\\128resolution\\testCarVisual\\testCarVisual-1000064.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000064,
+            "file_path": "results\\128resolution\\testCarVisual.onnx",
+            "reward": 2.4545454545454546,
+            "creation_time": 1655720736.4239726,
+            "auxillary_file_paths": [
+                "results\\128resolution\\testCarVisual\\testCarVisual-1000064.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

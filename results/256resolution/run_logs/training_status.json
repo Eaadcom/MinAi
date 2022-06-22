@@ -1,0 +1,29 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 25072,
+                "file_path": "results\\256resolution\\testCarVisual\\testCarVisual-25072.onnx",
+                "reward": -1.3636363636363635,
+                "creation_time": 1655721109.3799102,
+                "auxillary_file_paths": [
+                    "results\\256resolution\\testCarVisual\\testCarVisual-25072.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 25072,
+            "file_path": "results\\256resolution\\testCarVisual.onnx",
+            "reward": -1.3636363636363635,
+            "creation_time": 1655721109.3799102,
+            "auxillary_file_paths": [
+                "results\\256resolution\\testCarVisual\\testCarVisual-25072.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

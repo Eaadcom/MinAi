@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1655887260",
+        "python_version": "3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\Github\\MinAi\\venv\\Scripts\\mlagents-learn config/CarFindGoal.yaml --run-id=128resolution_2 --force",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.0+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1655887265"
+    },
+    "total": 4.8822234,
+    "count": 1,
+    "self": 0.0056298999999997434,
+    "children": {
+        "run_training.setup": {
+            "total": 0.15405880000000005,
+            "count": 1,
+            "self": 0.15405880000000005
+        },
+        "TrainerController.start_learning": {
+            "total": 4.722534700000001,
+            "count": 1,
+            "self": 6.710000000076377e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 4.7224561,
+                    "count": 1,
+                    "self": 4.7224561
+                },
+                "TrainerController._save_models": {
+                    "total": 1.1500000000275179e-05,
+                    "count": 1,
+                    "self": 1.1500000000275179e-05
+                }
+            }
+        }
+    }
+}

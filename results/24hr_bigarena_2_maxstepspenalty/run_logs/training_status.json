@@ -1,0 +1,65 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 1999986,
+                "file_path": "results\\24hr_bigarena_2_maxstepspenalty\\testCarVisual\\testCarVisual-1999986.onnx",
+                "reward": -2.0,
+                "creation_time": 1655208450.6984107,
+                "auxillary_file_paths": [
+                    "results\\24hr_bigarena_2_maxstepspenalty\\testCarVisual\\testCarVisual-1999986.pt"
+                ]
+            },
+            {
+                "steps": 2499968,
+                "file_path": "results\\24hr_bigarena_2_maxstepspenalty\\testCarVisual\\testCarVisual-2499968.onnx",
+                "reward": -2.0,
+                "creation_time": 1655210653.1912174,
+                "auxillary_file_paths": [
+                    "results\\24hr_bigarena_2_maxstepspenalty\\testCarVisual\\testCarVisual-2499968.pt"
+                ]
+            },
+            {
+                "steps": 2999965,
+                "file_path": "results\\24hr_bigarena_2_maxstepspenalty\\testCarVisual\\testCarVisual-2999965.onnx",
+                "reward": -2.0,
+                "creation_time": 1655212509.8068914,
+                "auxillary_file_paths": [
+                    "results\\24hr_bigarena_2_maxstepspenalty\\testCarVisual\\testCarVisual-2999965.pt"
+                ]
+            },
+            {
+                "steps": 3499945,
+                "file_path": "results\\24hr_bigarena_2_maxstepspenalty\\testCarVisual\\testCarVisual-3499945.onnx",
+                "reward": null,
+                "creation_time": 1655214432.3262382,
+                "auxillary_file_paths": [
+                    "results\\24hr_bigarena_2_maxstepspenalty\\testCarVisual\\testCarVisual-3499945.pt"
+                ]
+            },
+            {
+                "steps": 3658156,
+                "file_path": "results\\24hr_bigarena_2_maxstepspenalty\\testCarVisual\\testCarVisual-3658156.onnx",
+                "reward": -3.3333333333333335,
+                "creation_time": 1655215144.6451037,
+                "auxillary_file_paths": [
+                    "results\\24hr_bigarena_2_maxstepspenalty\\testCarVisual\\testCarVisual-3658156.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3658156,
+            "file_path": "results\\24hr_bigarena_2_maxstepspenalty\\testCarVisual.onnx",
+            "reward": -3.3333333333333335,
+            "creation_time": 1655215144.6451037,
+            "auxillary_file_paths": [
+                "results\\24hr_bigarena_2_maxstepspenalty\\testCarVisual\\testCarVisual-3658156.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

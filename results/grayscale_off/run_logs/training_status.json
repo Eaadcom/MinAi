@@ -1,0 +1,56 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 499985,
+                "file_path": "results\\grayscale_off\\testCarVisual\\testCarVisual-499985.onnx",
+                "reward": 5.0,
+                "creation_time": 1655287206.0697045,
+                "auxillary_file_paths": [
+                    "results\\grayscale_off\\testCarVisual\\testCarVisual-499985.pt"
+                ]
+            },
+            {
+                "steps": 587196,
+                "file_path": "results\\grayscale_off\\testCarVisual\\testCarVisual-587196.onnx",
+                "reward": 5.0,
+                "creation_time": 1655287602.026757,
+                "auxillary_file_paths": [
+                    "results\\grayscale_off\\testCarVisual\\testCarVisual-587196.pt"
+                ]
+            },
+            {
+                "steps": 999983,
+                "file_path": "results\\grayscale_off\\testCarVisual\\testCarVisual-999983.onnx",
+                "reward": 5.0,
+                "creation_time": 1655289371.4815667,
+                "auxillary_file_paths": [
+                    "results\\grayscale_off\\testCarVisual\\testCarVisual-999983.pt"
+                ]
+            },
+            {
+                "steps": 1000007,
+                "file_path": "results\\grayscale_off\\testCarVisual\\testCarVisual-1000007.onnx",
+                "reward": 5.0,
+                "creation_time": 1655289371.6222692,
+                "auxillary_file_paths": [
+                    "results\\grayscale_off\\testCarVisual\\testCarVisual-1000007.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000007,
+            "file_path": "results\\grayscale_off\\testCarVisual.onnx",
+            "reward": 5.0,
+            "creation_time": 1655289371.6222692,
+            "auxillary_file_paths": [
+                "results\\grayscale_off\\testCarVisual\\testCarVisual-1000007.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

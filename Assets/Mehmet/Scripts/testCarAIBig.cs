@@ -39,10 +39,19 @@ namespace testcar
         }
         public override void OnActionReceived(ActionBuffers actions)
         {
-            //float rotation = actions.ContinuousActions[0];
-            //float movement = actions.ContinuousActions[1];
-            float rotation = actions.DiscreteActions[0] <= 1 ? actions.DiscreteActions[0] : -1;
-            float movement = actions.DiscreteActions[1] <= 1 ? actions.DiscreteActions[1] : -1;
+            float rotation = 0;
+            float movement = 0;
+            if(actions.ContinuousActions.Length == 0)
+            {
+                rotation = actions.DiscreteActions[0] <= 1 ? actions.DiscreteActions[0] : -1;
+                movement = actions.DiscreteActions[1] <= 1 ? actions.DiscreteActions[1] : -1;
+            }
+            else
+            {
+                rotation = actions.ContinuousActions[0];
+                movement = actions.ContinuousActions[1];
+            }
+
             float moveSpeed = 8f;
             float rotateSpeed = 100f;
             if (movement != 0)

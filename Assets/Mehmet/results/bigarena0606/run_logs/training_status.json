@@ -1,0 +1,65 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 999982,
+                "file_path": "results\\bigarena0606\\testCarVisual\\testCarVisual-999982.onnx",
+                "reward": 0.0,
+                "creation_time": 1654523872.5544438,
+                "auxillary_file_paths": [
+                    "results\\bigarena0606\\testCarVisual\\testCarVisual-999982.pt"
+                ]
+            },
+            {
+                "steps": 1499998,
+                "file_path": "results\\bigarena0606\\testCarVisual\\testCarVisual-1499998.onnx",
+                "reward": 1.0,
+                "creation_time": 1654526918.9710822,
+                "auxillary_file_paths": [
+                    "results\\bigarena0606\\testCarVisual\\testCarVisual-1499998.pt"
+                ]
+            },
+            {
+                "steps": 1999963,
+                "file_path": "results\\bigarena0606\\testCarVisual\\testCarVisual-1999963.onnx",
+                "reward": -1.6666666666666667,
+                "creation_time": 1654529973.9844515,
+                "auxillary_file_paths": [
+                    "results\\bigarena0606\\testCarVisual\\testCarVisual-1999963.pt"
+                ]
+            },
+            {
+                "steps": 2499991,
+                "file_path": "results\\bigarena0606\\testCarVisual\\testCarVisual-2499991.onnx",
+                "reward": 0.0,
+                "creation_time": 1654533074.6707447,
+                "auxillary_file_paths": [
+                    "results\\bigarena0606\\testCarVisual\\testCarVisual-2499991.pt"
+                ]
+            },
+            {
+                "steps": 2830644,
+                "file_path": "results\\bigarena0606\\testCarVisual\\testCarVisual-2830644.onnx",
+                "reward": 0.0,
+                "creation_time": 1654535142.878123,
+                "auxillary_file_paths": [
+                    "results\\bigarena0606\\testCarVisual\\testCarVisual-2830644.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2830644,
+            "file_path": "results\\bigarena0606\\testCarVisual.onnx",
+            "reward": 0.0,
+            "creation_time": 1654535142.878123,
+            "auxillary_file_paths": [
+                "results\\bigarena0606\\testCarVisual\\testCarVisual-2830644.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "CarFindGoal": {
+        "checkpoints": [
+            {
+                "steps": 499980,
+                "file_path": "results\\84solotimehorizon160522\\CarFindGoal\\CarFindGoal-499980.onnx",
+                "reward": -0.800000037997961,
+                "creation_time": 1652730275.9445744,
+                "auxillary_file_paths": [
+                    "results\\84solotimehorizon160522\\CarFindGoal\\CarFindGoal-499980.pt"
+                ]
+            },
+            {
+                "steps": 999960,
+                "file_path": "results\\84solotimehorizon160522\\CarFindGoal\\CarFindGoal-999960.onnx",
+                "reward": -0.800000037997961,
+                "creation_time": 1652732218.379503,
+                "auxillary_file_paths": [
+                    "results\\84solotimehorizon160522\\CarFindGoal\\CarFindGoal-999960.pt"
+                ]
+            },
+            {
+                "steps": 1499989,
+                "file_path": "results\\84solotimehorizon160522\\CarFindGoal\\CarFindGoal-1499989.onnx",
+                "reward": -0.800000037997961,
+                "creation_time": 1652734140.9833293,
+                "auxillary_file_paths": [
+                    "results\\84solotimehorizon160522\\CarFindGoal\\CarFindGoal-1499989.pt"
+                ]
+            },
+            {
+                "steps": 1999955,
+                "file_path": "results\\84solotimehorizon160522\\CarFindGoal\\CarFindGoal-1999955.onnx",
+                "reward": null,
+                "creation_time": 1652736061.084746,
+                "auxillary_file_paths": [
+                    "results\\84solotimehorizon160522\\CarFindGoal\\CarFindGoal-1999955.pt"
+                ]
+            },
+            {
+                "steps": 2243284,
+                "file_path": "results\\84solotimehorizon160522\\CarFindGoal\\CarFindGoal-2243284.onnx",
+                "reward": -0.800000037997961,
+                "creation_time": 1652737007.941251,
+                "auxillary_file_paths": [
+                    "results\\84solotimehorizon160522\\CarFindGoal\\CarFindGoal-2243284.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2243284,
+            "file_path": "results\\84solotimehorizon160522\\CarFindGoal.onnx",
+            "reward": -0.800000037997961,
+            "creation_time": 1652737007.941251,
+            "auxillary_file_paths": [
+                "results\\84solotimehorizon160522\\CarFindGoal\\CarFindGoal-2243284.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

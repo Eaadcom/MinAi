@@ -1,0 +1,68 @@
+{
+    "WallQuantity": {
+        "lesson_num": 1
+    },
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 2999940,
+                "file_path": "results\\84ColorDiscreteBigCurriculumWalls_0617\\testCarVisual\\testCarVisual-2999940.onnx",
+                "reward": null,
+                "creation_time": 1655466572.2802918,
+                "auxillary_file_paths": [
+                    "results\\84ColorDiscreteBigCurriculumWalls_0617\\testCarVisual\\testCarVisual-2999940.pt"
+                ]
+            },
+            {
+                "steps": 3499936,
+                "file_path": "results\\84ColorDiscreteBigCurriculumWalls_0617\\testCarVisual\\testCarVisual-3499936.onnx",
+                "reward": -2.0,
+                "creation_time": 1655468351.8245237,
+                "auxillary_file_paths": [
+                    "results\\84ColorDiscreteBigCurriculumWalls_0617\\testCarVisual\\testCarVisual-3499936.pt"
+                ]
+            },
+            {
+                "steps": 3999962,
+                "file_path": "results\\84ColorDiscreteBigCurriculumWalls_0617\\testCarVisual\\testCarVisual-3999962.onnx",
+                "reward": null,
+                "creation_time": 1655470116.1025214,
+                "auxillary_file_paths": [
+                    "results\\84ColorDiscreteBigCurriculumWalls_0617\\testCarVisual\\testCarVisual-3999962.pt"
+                ]
+            },
+            {
+                "steps": 4499939,
+                "file_path": "results\\84ColorDiscreteBigCurriculumWalls_0617\\testCarVisual\\testCarVisual-4499939.onnx",
+                "reward": null,
+                "creation_time": 1655471812.6795447,
+                "auxillary_file_paths": [
+                    "results\\84ColorDiscreteBigCurriculumWalls_0617\\testCarVisual\\testCarVisual-4499939.pt"
+                ]
+            },
+            {
+                "steps": 4689748,
+                "file_path": "results\\84ColorDiscreteBigCurriculumWalls_0617\\testCarVisual\\testCarVisual-4689748.onnx",
+                "reward": -2.0,
+                "creation_time": 1655472521.6561015,
+                "auxillary_file_paths": [
+                    "results\\84ColorDiscreteBigCurriculumWalls_0617\\testCarVisual\\testCarVisual-4689748.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4689748,
+            "file_path": "results\\84ColorDiscreteBigCurriculumWalls_0617\\testCarVisual.onnx",
+            "reward": -2.0,
+            "creation_time": 1655472521.6561015,
+            "auxillary_file_paths": [
+                "results\\84ColorDiscreteBigCurriculumWalls_0617\\testCarVisual\\testCarVisual-4689748.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

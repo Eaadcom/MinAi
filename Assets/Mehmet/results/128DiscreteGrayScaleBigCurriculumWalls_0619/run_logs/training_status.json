@@ -1,0 +1,68 @@
+{
+    "WallQuantity": {
+        "lesson_num": 4
+    },
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 1999879,
+                "file_path": "results\\128DiscreteGrayScaleBigCurriculumWalls_0619\\testCarVisual\\testCarVisual-1999879.onnx",
+                "reward": 5.0,
+                "creation_time": 1655678621.8168232,
+                "auxillary_file_paths": [
+                    "results\\128DiscreteGrayScaleBigCurriculumWalls_0619\\testCarVisual\\testCarVisual-1999879.pt"
+                ]
+            },
+            {
+                "steps": 2499989,
+                "file_path": "results\\128DiscreteGrayScaleBigCurriculumWalls_0619\\testCarVisual\\testCarVisual-2499989.onnx",
+                "reward": null,
+                "creation_time": 1655681229.875403,
+                "auxillary_file_paths": [
+                    "results\\128DiscreteGrayScaleBigCurriculumWalls_0619\\testCarVisual\\testCarVisual-2499989.pt"
+                ]
+            },
+            {
+                "steps": 2999966,
+                "file_path": "results\\128DiscreteGrayScaleBigCurriculumWalls_0619\\testCarVisual\\testCarVisual-2999966.onnx",
+                "reward": -0.5,
+                "creation_time": 1655683740.8062003,
+                "auxillary_file_paths": [
+                    "results\\128DiscreteGrayScaleBigCurriculumWalls_0619\\testCarVisual\\testCarVisual-2999966.pt"
+                ]
+            },
+            {
+                "steps": 3499914,
+                "file_path": "results\\128DiscreteGrayScaleBigCurriculumWalls_0619\\testCarVisual\\testCarVisual-3499914.onnx",
+                "reward": 1.6666666666666667,
+                "creation_time": 1655686318.61462,
+                "auxillary_file_paths": [
+                    "results\\128DiscreteGrayScaleBigCurriculumWalls_0619\\testCarVisual\\testCarVisual-3499914.pt"
+                ]
+            },
+            {
+                "steps": 3681829,
+                "file_path": "results\\128DiscreteGrayScaleBigCurriculumWalls_0619\\testCarVisual\\testCarVisual-3681829.onnx",
+                "reward": 5.0,
+                "creation_time": 1655687349.3013244,
+                "auxillary_file_paths": [
+                    "results\\128DiscreteGrayScaleBigCurriculumWalls_0619\\testCarVisual\\testCarVisual-3681829.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3681829,
+            "file_path": "results\\128DiscreteGrayScaleBigCurriculumWalls_0619\\testCarVisual.onnx",
+            "reward": 5.0,
+            "creation_time": 1655687349.3013244,
+            "auxillary_file_paths": [
+                "results\\128DiscreteGrayScaleBigCurriculumWalls_0619\\testCarVisual\\testCarVisual-3681829.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

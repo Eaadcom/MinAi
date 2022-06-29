@@ -1,0 +1,71 @@
+{
+    "curriculumLesson": {
+        "lesson_num": 1
+    },
+    "arenaScale": {
+        "lesson_num": 1
+    },
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 499965,
+                "file_path": "results/CurriculumTestAdvanced/testCarVisual/testCarVisual-499965.onnx",
+                "reward": -5.0,
+                "creation_time": 1656320254.625876,
+                "auxillary_file_paths": [
+                    "results/CurriculumTestAdvanced/testCarVisual/testCarVisual-499965.pt"
+                ]
+            },
+            {
+                "steps": 999884,
+                "file_path": "results/CurriculumTestAdvanced/testCarVisual/testCarVisual-999884.onnx",
+                "reward": null,
+                "creation_time": 1656324838.460896,
+                "auxillary_file_paths": [
+                    "results/CurriculumTestAdvanced/testCarVisual/testCarVisual-999884.pt"
+                ]
+            },
+            {
+                "steps": 1499954,
+                "file_path": "results/CurriculumTestAdvanced/testCarVisual/testCarVisual-1499954.onnx",
+                "reward": null,
+                "creation_time": 1656329378.718743,
+                "auxillary_file_paths": [
+                    "results/CurriculumTestAdvanced/testCarVisual/testCarVisual-1499954.pt"
+                ]
+            },
+            {
+                "steps": 1999909,
+                "file_path": "results/CurriculumTestAdvanced/testCarVisual/testCarVisual-1999909.onnx",
+                "reward": -2.0,
+                "creation_time": 1656333909.849167,
+                "auxillary_file_paths": [
+                    "results/CurriculumTestAdvanced/testCarVisual/testCarVisual-1999909.pt"
+                ]
+            },
+            {
+                "steps": 2324134,
+                "file_path": "results/CurriculumTestAdvanced/testCarVisual/testCarVisual-2324134.onnx",
+                "reward": null,
+                "creation_time": 1656336881.015477,
+                "auxillary_file_paths": [
+                    "results/CurriculumTestAdvanced/testCarVisual/testCarVisual-2324134.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2324134,
+            "file_path": "results/CurriculumTestAdvanced/testCarVisual.onnx",
+            "reward": null,
+            "creation_time": 1656336881.015477,
+            "auxillary_file_paths": [
+                "results/CurriculumTestAdvanced/testCarVisual/testCarVisual-2324134.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.8.1"
+    }
+}

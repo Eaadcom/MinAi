@@ -1,0 +1,68 @@
+{
+    "arenaScale": {
+        "lesson_num": 0
+    },
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 4999932,
+                "file_path": "results/CameraVisionDoubleEyesOneWall/testCarVisual/testCarVisual-4999932.onnx",
+                "reward": -1.0,
+                "creation_time": 1655792820.23735,
+                "auxillary_file_paths": [
+                    "results/CameraVisionDoubleEyesOneWall/testCarVisual/testCarVisual-4999932.pt"
+                ]
+            },
+            {
+                "steps": 5499911,
+                "file_path": "results/CameraVisionDoubleEyesOneWall/testCarVisual/testCarVisual-5499911.onnx",
+                "reward": -2.75,
+                "creation_time": 1655795099.281027,
+                "auxillary_file_paths": [
+                    "results/CameraVisionDoubleEyesOneWall/testCarVisual/testCarVisual-5499911.pt"
+                ]
+            },
+            {
+                "steps": 5999975,
+                "file_path": "results/CameraVisionDoubleEyesOneWall/testCarVisual/testCarVisual-5999975.onnx",
+                "reward": -2.0,
+                "creation_time": 1655797350.767204,
+                "auxillary_file_paths": [
+                    "results/CameraVisionDoubleEyesOneWall/testCarVisual/testCarVisual-5999975.pt"
+                ]
+            },
+            {
+                "steps": 6499964,
+                "file_path": "results/CameraVisionDoubleEyesOneWall/testCarVisual/testCarVisual-6499964.onnx",
+                "reward": -2.0,
+                "creation_time": 1655799600.116888,
+                "auxillary_file_paths": [
+                    "results/CameraVisionDoubleEyesOneWall/testCarVisual/testCarVisual-6499964.pt"
+                ]
+            },
+            {
+                "steps": 6961451,
+                "file_path": "results/CameraVisionDoubleEyesOneWall/testCarVisual/testCarVisual-6961451.onnx",
+                "reward": null,
+                "creation_time": 1655801744.186959,
+                "auxillary_file_paths": [
+                    "results/CameraVisionDoubleEyesOneWall/testCarVisual/testCarVisual-6961451.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 6961451,
+            "file_path": "results/CameraVisionDoubleEyesOneWall/testCarVisual.onnx",
+            "reward": null,
+            "creation_time": 1655801744.186959,
+            "auxillary_file_paths": [
+                "results/CameraVisionDoubleEyesOneWall/testCarVisual/testCarVisual-6961451.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.8.1"
+    }
+}

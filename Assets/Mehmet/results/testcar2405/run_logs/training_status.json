@@ -1,0 +1,65 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 499983,
+                "file_path": "results\\testcar2405\\testCarVisual\\testCarVisual-499983.onnx",
+                "reward": 3.0555555555555554,
+                "creation_time": 1653414873.6427379,
+                "auxillary_file_paths": [
+                    "results\\testcar2405\\testCarVisual\\testCarVisual-499983.pt"
+                ]
+            },
+            {
+                "steps": 999987,
+                "file_path": "results\\testcar2405\\testCarVisual\\testCarVisual-999987.onnx",
+                "reward": 4.444444444444445,
+                "creation_time": 1653416662.8525846,
+                "auxillary_file_paths": [
+                    "results\\testcar2405\\testCarVisual\\testCarVisual-999987.pt"
+                ]
+            },
+            {
+                "steps": 1499952,
+                "file_path": "results\\testcar2405\\testCarVisual\\testCarVisual-1499952.onnx",
+                "reward": null,
+                "creation_time": 1653418467.8709235,
+                "auxillary_file_paths": [
+                    "results\\testcar2405\\testCarVisual\\testCarVisual-1499952.pt"
+                ]
+            },
+            {
+                "steps": 1999943,
+                "file_path": "results\\testcar2405\\testCarVisual\\testCarVisual-1999943.onnx",
+                "reward": 5.0,
+                "creation_time": 1653420268.9115603,
+                "auxillary_file_paths": [
+                    "results\\testcar2405\\testCarVisual\\testCarVisual-1999943.pt"
+                ]
+            },
+            {
+                "steps": 2282061,
+                "file_path": "results\\testcar2405\\testCarVisual\\testCarVisual-2282061.onnx",
+                "reward": 4.705882352941177,
+                "creation_time": 1653421305.1488793,
+                "auxillary_file_paths": [
+                    "results\\testcar2405\\testCarVisual\\testCarVisual-2282061.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2282061,
+            "file_path": "results\\testcar2405\\testCarVisual.onnx",
+            "reward": 4.705882352941177,
+            "creation_time": 1653421305.1488793,
+            "auxillary_file_paths": [
+                "results\\testcar2405\\testCarVisual\\testCarVisual-2282061.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

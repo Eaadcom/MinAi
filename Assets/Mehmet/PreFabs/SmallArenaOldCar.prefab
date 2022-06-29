@@ -856,27 +856,27 @@ PrefabInstance:
       objectReference: {fileID: 3172710886581801532}
     - target: {fileID: 5933493755354647942, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
       propertyPath: m_Width
-      value: 256
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 5933493755354647942, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
       propertyPath: m_Height
-      value: 256
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 9090480546278033972, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5022602860645237092, guid: e706aab6ebe3f8f4aa59064118e352aa, type: 3}
     - target: {fileID: 9090480546278033972, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
       propertyPath: m_BrainParameters.VectorActionSpaceType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9090480546278033972, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
       propertyPath: m_BrainParameters.VectorActionSize.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9090480546278033972, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
       propertyPath: m_BrainParameters.VectorActionSize.Array.data[0]
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9090480546278033972, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
       propertyPath: m_BrainParameters.VectorActionSize.Array.data[1]
@@ -884,11 +884,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9090480546278033972, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
       propertyPath: m_BrainParameters.m_ActionSpec.BranchSizes.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9090480546278033972, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
       propertyPath: m_BrainParameters.m_ActionSpec.m_NumContinuousActions
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9090480546278033972, guid: ecf235e5913b9a24dae5da8d779a9b8d, type: 3}
       propertyPath: m_BrainParameters.m_ActionSpec.BranchSizes.Array.data[0]

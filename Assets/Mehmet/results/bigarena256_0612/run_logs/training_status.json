@@ -1,0 +1,56 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 59372,
+                "file_path": "results\\bigarena256_0612\\testCarVisual\\testCarVisual-59372.onnx",
+                "reward": -4.607843137254902,
+                "creation_time": 1655047942.240527,
+                "auxillary_file_paths": [
+                    "results\\bigarena256_0612\\testCarVisual\\testCarVisual-59372.pt"
+                ]
+            },
+            {
+                "steps": 68046,
+                "file_path": "results\\bigarena256_0612\\testCarVisual\\testCarVisual-68046.onnx",
+                "reward": -4.803921568627451,
+                "creation_time": 1655048087.9422817,
+                "auxillary_file_paths": [
+                    "results\\bigarena256_0612\\testCarVisual\\testCarVisual-68046.pt"
+                ]
+            },
+            {
+                "steps": 102660,
+                "file_path": "results\\bigarena256_0612\\testCarVisual\\testCarVisual-102660.onnx",
+                "reward": -4.0,
+                "creation_time": 1655048693.3046944,
+                "auxillary_file_paths": [
+                    "results\\bigarena256_0612\\testCarVisual\\testCarVisual-102660.pt"
+                ]
+            },
+            {
+                "steps": 463953,
+                "file_path": "results\\bigarena256_0612\\testCarVisual\\testCarVisual-463953.onnx",
+                "reward": 0.0,
+                "creation_time": 1655055193.2195137,
+                "auxillary_file_paths": [
+                    "results\\bigarena256_0612\\testCarVisual\\testCarVisual-463953.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 463953,
+            "file_path": "results\\bigarena256_0612\\testCarVisual.onnx",
+            "reward": 0.0,
+            "creation_time": 1655055193.2195137,
+            "auxillary_file_paths": [
+                "results\\bigarena256_0612\\testCarVisual\\testCarVisual-463953.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

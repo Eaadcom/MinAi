@@ -1,0 +1,56 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 499952,
+                "file_path": "results\\bigarena0611\\testCarVisual\\testCarVisual-499952.onnx",
+                "reward": -11.616874376311898,
+                "creation_time": 1654975313.0382683,
+                "auxillary_file_paths": [
+                    "results\\bigarena0611\\testCarVisual\\testCarVisual-499952.pt"
+                ]
+            },
+            {
+                "steps": 999995,
+                "file_path": "results\\bigarena0611\\testCarVisual\\testCarVisual-999995.onnx",
+                "reward": -12.149999412397543,
+                "creation_time": 1654978424.0066342,
+                "auxillary_file_paths": [
+                    "results\\bigarena0611\\testCarVisual\\testCarVisual-999995.pt"
+                ]
+            },
+            {
+                "steps": 1499959,
+                "file_path": "results\\bigarena0611\\testCarVisual\\testCarVisual-1499959.onnx",
+                "reward": -13.54299940764904,
+                "creation_time": 1654981474.7513537,
+                "auxillary_file_paths": [
+                    "results\\bigarena0611\\testCarVisual\\testCarVisual-1499959.pt"
+                ]
+            },
+            {
+                "steps": 1769150,
+                "file_path": "results\\bigarena0611\\testCarVisual\\testCarVisual-1769150.onnx",
+                "reward": null,
+                "creation_time": 1654983163.838027,
+                "auxillary_file_paths": [
+                    "results\\bigarena0611\\testCarVisual\\testCarVisual-1769150.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1769150,
+            "file_path": "results\\bigarena0611\\testCarVisual.onnx",
+            "reward": null,
+            "creation_time": 1654983163.838027,
+            "auxillary_file_paths": [
+                "results\\bigarena0611\\testCarVisual\\testCarVisual-1769150.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

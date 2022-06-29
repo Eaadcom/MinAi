@@ -1,0 +1,38 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 499899,
+                "file_path": "results\\bigarenaCuriosity_0613\\testCarVisual\\testCarVisual-499899.onnx",
+                "reward": 0.0,
+                "creation_time": 1655117730.5006435,
+                "auxillary_file_paths": [
+                    "results\\bigarenaCuriosity_0613\\testCarVisual\\testCarVisual-499899.pt"
+                ]
+            },
+            {
+                "steps": 800854,
+                "file_path": "results\\bigarenaCuriosity_0613\\testCarVisual\\testCarVisual-800854.onnx",
+                "reward": null,
+                "creation_time": 1655120835.8713586,
+                "auxillary_file_paths": [
+                    "results\\bigarenaCuriosity_0613\\testCarVisual\\testCarVisual-800854.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 800854,
+            "file_path": "results\\bigarenaCuriosity_0613\\testCarVisual.onnx",
+            "reward": null,
+            "creation_time": 1655120835.8713586,
+            "auxillary_file_paths": [
+                "results\\bigarenaCuriosity_0613\\testCarVisual\\testCarVisual-800854.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

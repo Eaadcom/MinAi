@@ -1,0 +1,29 @@
+{
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 160180,
+                "file_path": "results\\bigarenaDiscreteCuriosity_0613\\testCarVisual\\testCarVisual-160180.onnx",
+                "reward": null,
+                "creation_time": 1655123754.6291816,
+                "auxillary_file_paths": [
+                    "results\\bigarenaDiscreteCuriosity_0613\\testCarVisual\\testCarVisual-160180.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 160180,
+            "file_path": "results\\bigarenaDiscreteCuriosity_0613\\testCarVisual.onnx",
+            "reward": null,
+            "creation_time": 1655123754.6291816,
+            "auxillary_file_paths": [
+                "results\\bigarenaDiscreteCuriosity_0613\\testCarVisual\\testCarVisual-160180.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

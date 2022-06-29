@@ -1,0 +1,71 @@
+{
+    "curriculumLesson": {
+        "lesson_num": 2
+    },
+    "arenaScale": {
+        "lesson_num": 2
+    },
+    "testCarVisual": {
+        "checkpoints": [
+            {
+                "steps": 8499878,
+                "file_path": "results/CurriculumTest4greyscale128/testCarVisual/testCarVisual-8499878.onnx",
+                "reward": -2.0,
+                "creation_time": 1656139185.6814551,
+                "auxillary_file_paths": [
+                    "results/CurriculumTest4greyscale128/testCarVisual/testCarVisual-8499878.pt"
+                ]
+            },
+            {
+                "steps": 8999910,
+                "file_path": "results/CurriculumTest4greyscale128/testCarVisual/testCarVisual-8999910.onnx",
+                "reward": null,
+                "creation_time": 1656143712.97759,
+                "auxillary_file_paths": [
+                    "results/CurriculumTest4greyscale128/testCarVisual/testCarVisual-8999910.pt"
+                ]
+            },
+            {
+                "steps": 9499878,
+                "file_path": "results/CurriculumTest4greyscale128/testCarVisual/testCarVisual-9499878.onnx",
+                "reward": null,
+                "creation_time": 1656148257.1526241,
+                "auxillary_file_paths": [
+                    "results/CurriculumTest4greyscale128/testCarVisual/testCarVisual-9499878.pt"
+                ]
+            },
+            {
+                "steps": 9999910,
+                "file_path": "results/CurriculumTest4greyscale128/testCarVisual/testCarVisual-9999910.onnx",
+                "reward": -2.0,
+                "creation_time": 1656152850.201301,
+                "auxillary_file_paths": [
+                    "results/CurriculumTest4greyscale128/testCarVisual/testCarVisual-9999910.pt"
+                ]
+            },
+            {
+                "steps": 10000102,
+                "file_path": "results/CurriculumTest4greyscale128/testCarVisual/testCarVisual-10000102.onnx",
+                "reward": -2.0,
+                "creation_time": 1656152850.502366,
+                "auxillary_file_paths": [
+                    "results/CurriculumTest4greyscale128/testCarVisual/testCarVisual-10000102.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10000102,
+            "file_path": "results/CurriculumTest4greyscale128/testCarVisual.onnx",
+            "reward": -2.0,
+            "creation_time": 1656152850.502366,
+            "auxillary_file_paths": [
+                "results/CurriculumTest4greyscale128/testCarVisual/testCarVisual-10000102.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.8.1"
+    }
+}

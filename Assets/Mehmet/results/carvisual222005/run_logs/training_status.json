@@ -1,0 +1,65 @@
+{
+    "CarFindGoal_visual": {
+        "checkpoints": [
+            {
+                "steps": 999993,
+                "file_path": "results\\carvisual222005\\CarFindGoal_visual\\CarFindGoal_visual-999993.onnx",
+                "reward": -0.800000037997961,
+                "creation_time": 1653066556.4378474,
+                "auxillary_file_paths": [
+                    "results\\carvisual222005\\CarFindGoal_visual\\CarFindGoal_visual-999993.pt"
+                ]
+            },
+            {
+                "steps": 1499988,
+                "file_path": "results\\carvisual222005\\CarFindGoal_visual\\CarFindGoal_visual-1499988.onnx",
+                "reward": -0.800000037997961,
+                "creation_time": 1653068432.6004527,
+                "auxillary_file_paths": [
+                    "results\\carvisual222005\\CarFindGoal_visual\\CarFindGoal_visual-1499988.pt"
+                ]
+            },
+            {
+                "steps": 1999946,
+                "file_path": "results\\carvisual222005\\CarFindGoal_visual\\CarFindGoal_visual-1999946.onnx",
+                "reward": -0.800000037997961,
+                "creation_time": 1653070319.1457186,
+                "auxillary_file_paths": [
+                    "results\\carvisual222005\\CarFindGoal_visual\\CarFindGoal_visual-1999946.pt"
+                ]
+            },
+            {
+                "steps": 2499983,
+                "file_path": "results\\carvisual222005\\CarFindGoal_visual\\CarFindGoal_visual-2499983.onnx",
+                "reward": -0.800000037997961,
+                "creation_time": 1653072205.6977694,
+                "auxillary_file_paths": [
+                    "results\\carvisual222005\\CarFindGoal_visual\\CarFindGoal_visual-2499983.pt"
+                ]
+            },
+            {
+                "steps": 2736666,
+                "file_path": "results\\carvisual222005\\CarFindGoal_visual\\CarFindGoal_visual-2736666.onnx",
+                "reward": null,
+                "creation_time": 1653073098.911201,
+                "auxillary_file_paths": [
+                    "results\\carvisual222005\\CarFindGoal_visual\\CarFindGoal_visual-2736666.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2736666,
+            "file_path": "results\\carvisual222005\\CarFindGoal_visual.onnx",
+            "reward": null,
+            "creation_time": 1653073098.911201,
+            "auxillary_file_paths": [
+                "results\\carvisual222005\\CarFindGoal_visual\\CarFindGoal_visual-2736666.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

@@ -6,5 +6,6 @@
     "parameters" :
     {
         "arenaScale" : [0.3, 0.4, 0.6, 0.8]
+        "curriculumLesson" : [0, 1, 2, 3]
     }
 }
